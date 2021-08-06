@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    nav {
+        flex: 1;
+        background-color: #c1d4a2;
+    }
+    &__logo {
+        width: 100px;
+        margin-left: 15px;
+    }
+    &__menu {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        align-items: center;
+        height: 60px;
+        &__seleccionada {
+            background-color: #8fa36d;
+        }
+        &__seleccionada > a {
+            background-color: #8fa36d;
+        }
+}
+    &__menu li a {
+        text-decoration: none;
+        font-size: 20px;
+        color: #f2f2f2;
+        padding: 15px; 
+    }
+    &__menu > li > a:hover {
+        color:  #f2f2f2;
+    }
+}
