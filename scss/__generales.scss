@@ -4,3 +4,14 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;;
 }
+
+.generales__mediaLink {
+    text-decoration: none;
+    color: $colorLinks;
+    font-size: 16px;
+}
+
+.generales__mediaLink:hover {
+    color: #97a676;
+}
+

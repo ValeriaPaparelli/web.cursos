@@ -10,36 +10,62 @@
         opacity: 0.7;
     }
     &__titulo {
-        color: #41561d;
+        color: $colorTitulos;
         margin-bottom: 30px;
     }
     &__tituloSec {
-        color: #41561d;
+        color: $colorSubtitulos;
     }
 }
 
 .index__cursos {
     &__titulo {
-        color: #41561d;
+        color: $colorTitulos;
         text-align: center;
-        margin-top: 30px;
-        padding-bottom: 30px ;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        font-size: 30px;
+        font-weight: normal;
     }
     &__contenedor {
         display: flex;
-        display: row;
-        justify-content: space-around;
+        flex-direction: row;
+        justify-content: space-evenly;
         text-align: center;
         margin-top: 20px;
         margin-bottom: 50px;
-        &__curso__titulo {
-            color: #5a7340;
-            padding: 10px 0;
+        &__curso {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &__img {
+                width: 300px;
+            }
+            &__titulo {
+                color: $colorSubtitulos;
+                width: 70%;
+                padding: 10px 0;
+                font-size: 22px;
+                font-weight: normal;
+            }
+            &__link {
+                display: block;
+                text-align: center;
+                background-color: #c1d4a2;
+                color: $colorTitulos;
+                font-weight: bold;
+                width: 40%;
+                border: none;
+                padding: 10px;
+                text-decoration: none;
+                margin-top: 20px;
+            }
+            &__link:hover {
+                text-decoration: none;
+                color: $colorLinks;
+            }
         }
-        &__curso__link {
-            text-decoration: none;
-            color: #41561d;
-        }
+        
     }
 }
 
