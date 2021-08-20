@@ -31,34 +31,40 @@
             <ul class="header__menu">
                 <li><a href="../index.html">INICIO</a></li>
                 <li><a href="../pages/nosotros.html">NOSOTROS</a></li>
-                <li class="header__menu__seleccionada"><a href="../pages/cursos.html">CURSOS</a></li>
-                <li><a href="../pages/contacto.html">CONTACTO</a></li>
+                <li><a href="../pages/cursos.html">CURSOS</a></li>
+                <li class="header__menu__seleccionada"><a href="../pages/contacto.html">CONTACTO</a></li>
             </ul>
         </nav>
     </header>
-    <section class="index__cursos">
-        <h2 class="index__cursos__titulo">Nuestros Cursos</h2>
-    <div class="index__cursos__contenedor">
-        <div class="index__cursos__contenedor__curso">
-            <img class="index__cursos__contenedor__curso__img" src="../media/corporal-curso.jpg" alt="">
-            <h4 class="index__cursos__contenedor__curso__titulo">Elaboración de Productos Corporales</h4>
-            <a class="index__cursos__contenedor__curso__link" href="#">Más Info</a>
+    <main class="contacto">
+        <div class="contacto__form">
+            <form>
+                <h2 class="contacto__titulo">Dejanos tu consulta</h2>
+                <div class="contacto__form__grupo"> 
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" placeholder="Nombre">
+                </div>
+                <div class="contacto__form__grupo">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="apellido" placeholder="Apellido">
+                </div>
+                <div class="contacto__form__grupo">
+                    <label for="email">E-mail</label>
+                    <input type="text" name="email" placeholder="E-mail">
+                </div>
+                <div class="contacto__form__grupo">
+                    <label for="consulta">Consulta</label>
+                    <textarea name="" id="" cols="30" rows="10"  placeholder="Ingresá tu consulta"></textarea>
+                </div>
+                <div class="contacto__form__grupo">
+                    <button class="botonEnviar" type="submit">Enviar</button>
+            </div>
+            </form>
         </div>
-        <div class="index__cursos__contenedor__curso">
-            <img class="index__cursos__contenedor__curso__img" src="../media/corporal-curso.jpg" alt="">
-            <h4 class="index__cursos__contenedor__curso__titulo">Elaboración de Productos Faciales</h4>
-            <a class="index__cursos__contenedor__curso__link" href="#">Más Info</a>
-        </div>
-        <div class="index__cursos__contenedor__curso">
-            <img class="index__cursos__contenedor__curso__img" src="../media/corporal-curso.jpg" alt="">
-            <h3 class="index__cursos__contenedor__curso__titulo">Elaboración de Productos Capilares</h4>
-            <a class="index__cursos__contenedor__curso__link" href="#">Más Info</a>
-        </div>
-    </div>
-</section>
+    </main>
     <footer class="footer">
         <h4 class="footer__media">Seguinos en instagram</h4>
-        <img class="footer__ig" src="../media/ig-icon.png" alt="">
+        <img class="footer__ig" src="./media/ig-icon.png" alt="">
         <h6 class="footer__derechos" >@CURSOS | COSMÉTICA NATURAL - 2021 - Todos los derechos reservados</h6>
     </footer>
 </body>

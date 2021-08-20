@@ -1,17 +1,17 @@
 .nosotros {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 100%;
+    width: 72%;
+    margin: 0 auto;
     &__titulo {
-        color: $colorTitulos;
-        padding: 40px 0;
-        width: 65%;
+        color: $colorSubtitulos;
+        margin: 40px 0;
     }
     &__texto {
-        width: 67%;
-        line-height: 25px;
-        padding-top: 20px;
-        padding-bottom: 50px;
-    }
+        line-height: 27px;
+        margin-top: 25px;
+        margin-bottom: 50px;
+        color: $colorTexto;
+        font-size: 18px;
+    }    
 }
