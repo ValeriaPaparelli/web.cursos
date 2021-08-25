@@ -7,11 +7,34 @@
         color: $colorTitulos;
         font-weight: normal;
         margin-top: 25px;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
     &__form__grupo {
         display: flex;
         flex-direction: column;
         width: 800px;
+        &__label {
+            padding-top: 15px;
+            padding-bottom: 5px;
+            color: $colorSubtitulos;
+            font-weight: bold;  
+        }    
+        &__input {
+            border: 1px solid $colorTitulos;
+            padding: 10px 10px;
+        }
+        .botonEnviar {
+            padding: 10px 0;
+            margin-top: 15px;
+            margin-bottom: 40px;
+            background-color: #c1d4a2;
+            color: $colorTexto;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+        }
+        .botonEnviar:hover {
+            background-color: #d5e4be;
+        }    
     }
 }
