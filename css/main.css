@@ -37,8 +37,6 @@
     text-align: center;
     align-items: center;
     height: 60px; }
-    .header__menu__seleccionada {
-      background-color: #8fa36d; }
     .header__menu__seleccionada > a {
       background-color: #8fa36d; }
   .header__menu li a {
@@ -46,8 +44,9 @@
     font-size: 20px;
     color: #f2f2f2;
     padding: 15px; }
-  .header__menu > li > a:hover {
-    color: #f2f2f2; }
+    .header__menu li a:hover {
+      background-color: #a3b883;
+      transition: all 1.5s; }
 
 .index__principal__portada {
   display: flex;
@@ -141,6 +140,46 @@
     margin-bottom: 50px;
     color: #3A3A3A;
     font-size: 18px; }
+
+.cursos {
+  width: 70%;
+  margin: 40px auto; }
+
+.cursito {
+  display: grid;
+  grid-template-areas: "curso-imagen curso-descripcion";
+  margin-bottom: 40px; }
+  .cursito__img {
+    grid-area: curso-imagen;
+    margin-right: 25px; }
+  .cursito__descripcion {
+    display: flex;
+    flex-direction: column;
+    grid-area: curso-descripcion; }
+  .cursito__titulo {
+    margin-bottom: 15px;
+    color: #41561d;
+    border-bottom: 1px solid #91aa77;
+    font-weight: normal; }
+  .cursito__parrafo {
+    flex: 1;
+    color: #3A3A3A;
+    border-bottom: 1px solid #91aa77;
+    padding-top: 20px; }
+  .cursito__link {
+    text-decoration: none;
+    color: #3A3A3A;
+    background-color: #c1d4a2;
+    color: #41561d;
+    font-weight: bold;
+    width: 12%;
+    text-align: center;
+    padding: 5px;
+    font-style: oblique;
+    margin-top: 5px; }
+  .cursito__link:hover {
+    text-decoration: none;
+    color: #7a7a7a; }
 
 .contacto {
   display: flex;

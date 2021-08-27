@@ -27,9 +27,6 @@
         text-align: center;
         align-items: center;
         height: 60px;
-        &__seleccionada {
-            background-color: #8fa36d;
-        }
         &__seleccionada > a {
             background-color: #8fa36d;
         }
@@ -39,8 +36,14 @@
         font-size: 20px;
         color: #f2f2f2;
         padding: 15px; 
-    }
-    &__menu > li > a:hover {
-        color:  #f2f2f2;
+        &:hover {
+            background-color: #a3b883;
+            transition: all 1.5s;
+        }
     }
 }
+
+
+
+
+
