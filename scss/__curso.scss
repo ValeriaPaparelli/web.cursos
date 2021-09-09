@@ -1,0 +1,21 @@
+.curso {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+    &__imagen {
+        margin: 40px auto;
+    }
+    &__titulo {
+        color: #97a676;
+        width: 100;
+        margin-bottom: 20px;
+    }
+    &__texto {
+        line-height: 27px;
+        margin-bottom: 40px;
+        color: $colorTexto;
+        font-size: 18px;
+        width: 100%;
+    }    
+}    

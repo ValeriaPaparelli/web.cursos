@@ -172,6 +172,7 @@
     background-color: #c1d4a2;
     color: #41561d;
     font-weight: bold;
+    font-size: 14px;
     width: 12%;
     text-align: center;
     padding: 5px;
@@ -214,3 +215,21 @@
       border: none; }
     .contacto__form__grupo .botonEnviar:hover {
       background-color: #d5e4be; }
+
+.curso {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 0 auto; }
+  .curso__imagen {
+    margin: 40px auto; }
+  .curso__titulo {
+    color: #97a676;
+    width: 100;
+    margin-bottom: 20px; }
+  .curso__texto {
+    line-height: 27px;
+    margin-bottom: 40px;
+    color: #3A3A3A;
+    font-size: 18px;
+    width: 100%; }
